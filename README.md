@@ -3,7 +3,7 @@ Analysis to determine what is the best offer to send to Starbucks' consumers
 
 ## Description
 
-This project consists in predicting the right offer to the Starbucks app member
+This project consists in predicting the right offer to the Starbucks app member.
 
 The steps of this projects were:
 - explore data: understand what were the offers that led to transaction and who where the person using them intentionaly
@@ -12,7 +12,7 @@ The steps of this projects were:
 - apply this model to any member to find out what offer would suit him best
 
 The dataset we use only focuses on the transcactions that has been led by an offer.
-We can see that among this dataset, we have the same amount of BOGO and discount offers
+We can see that among this dataset, we have the same amount of BOGO and discount offers.
 
 ![offer_split](./images/bogo_vs_discount.png)
 
@@ -23,7 +23,7 @@ The model that performed the best was a Random Forest Classifier. Looking at fea
 ![feat_importance](./images/feat_importance.png)
 
 
-In order to go through the exploration analysis through the notebook, please visit the [link]()
+In order to go through the exploration analysis through the notebook, please visit the associated html file.
 
 As a data cleaning is done through out this notebook, we thought it would be convenient to clean and transform the data via the process_data script you can run in the command line with
 `python process_data.py`
