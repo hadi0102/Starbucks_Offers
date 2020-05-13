@@ -30,7 +30,7 @@ You will need to install:
     Contains the json dataset provided for the case:
     - portfolio.json: information about the offers
     - profile.json: information about the members
-    -  transcript.json: information about all the events (transaction, offer received, ....) that happened among the members
+    - transcript.json: information about all the events (transaction, offer received, ....) that happened among the members
 
 - images folder:
     Contains illustrations for the README
@@ -46,10 +46,10 @@ You will need to install:
 - process_data.py:
     Python script that does the data preprocessing covered in the Notebook at once.
     It allows getting the analysis dataset from the different json sources.
-    To run it:
-      - 1. Clone the repository
-      - 2. Go into the directory of the repository
-      - 3. run `python process_data.py`
+    To run it: </br>
+      - 1. Clone the repository </br>
+      - 2. Go into the directory of the repository </br>
+      - 3. run `python process_data.py` </br>
     Now you can go the Notebook predict_offer.ipynb to deep dive into the models.
 
 - predict_offer.ipynb:
