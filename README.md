@@ -38,7 +38,6 @@ The notebook is using Python 3.6
 You will need to install:
 - pandas and numpy
 - plotly
-- pickle
 - sklearn and xgboost
 
 
