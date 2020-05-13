@@ -34,7 +34,7 @@ def transform_transcript(df):
     2. Add complementary info to transcript data allowing to follow an offer and
     a person
     Args: dataframe, initial transcript DataFrame
-    Output: clean dataframe transcript with additional personvalue column
+    Return: clean dataframe transcript with additional personvalue column
     """
     df['value'] = df['value'].apply(lambda x: list(x.values())[0])
     df = df.drop_duplicates()
@@ -47,7 +47,7 @@ def get_transaction_from_offer(df):
     """
     Get all the offers that were provoked by an offer time_viewed
     Args: df, transcript dataframe with column mixing person and value
-    Returns: list of personvalue corresponding to this criteria
+    Return: list of personvalue corresponding to this criteria
     """
 
     offer_viewed = df[df['event'] == 'offer viewed']['personvalue']
