@@ -31,22 +31,31 @@ You will need to install:
     - portfolio.json: information about the offers
     - profile.json: information about the members
     -  transcript.json: information about all the events (transaction, offer received, ....) that happened among the members
+
 - images folder:
     Contains illustrations for the README
+
 - explore_and_clean.ipynb:
-    Notebook where we eplore the different data sources and create our analysis dataset
+    Notebook where we eplore the different data sources and create our analysis dataset.
+    This analysis dataset can be directly created via the process_data.py (see below).
+    The Notebook allows to see all the details while building it.
+
 - explore_and_clean.html:
     Notebook in html file so that all the graphs are displayed properly
+
 - process_data.py:
     Python script that does the data preprocessing covered in the Notebook at once.
     It allows getting the analysis dataset from the different json sources.
     To run it:
-      1. Clone the repository
-      2. Go into the directory of the repository
-      3. run `python process_data.py`
-- predict_offer.py:
+      - 1. Clone the repository
+      - 2. Go into the directory of the repository
+      - 3. run `python process_data.py`
+    Now you can go the Notebook predict_offer.ipynb to deep dive into the models.
+
+- predict_offer.ipynb:
     Notebook where we test different classification models to predict an offer depending on the member.
     We use the f1_score to assess the performance of the model.
+
 - README.md:
     Description of the study, associated files and required installations
 
